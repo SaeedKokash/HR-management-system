@@ -76,7 +76,7 @@ cardParent.appendChild(infoParent);
 
 //list of employees infos
 const ghaziSamer = new Employeeinfo (1000, "Ghazi Samer", "Administration", "Senior", "./assets/Ghazi.jpg");
-const lanaAli = new Employeeinfo (1001, "Lana Ali", "Finance", "Senior","../assets/Lana.jpg");
+const lanaAli = new Employeeinfo (1001, "Lana Ali", "Finance", "Senior","./assets/Lana.jpg");
 const tamaraAyoub = new Employeeinfo (1002, "Tamara Ayoub", "Marketing", "Senior","./assets/Tamara.jpg");
 const safiWalid = new Employeeinfo (1003, "Safi Walid", "Administration", "Mid-Senior","./assets/Safi.jpg");
 const omarZaid = new Employeeinfo (1004, "Omar Zaid", "Development", "Senior","./assets/Omar.jpg");
