@@ -75,13 +75,13 @@ cardParent.appendChild(infoParent);
 }
 
 //list of employees infos
-const ghaziSamer = new Employeeinfo (1000, "Ghazi Samer", "Administration", "Senior", "../assets/Ghazi.jpg");
+const ghaziSamer = new Employeeinfo (1000, "Ghazi Samer", "Administration", "Senior", "./assets/Ghazi.jpg");
 const lanaAli = new Employeeinfo (1001, "Lana Ali", "Finance", "Senior","../assets/Lana.jpg");
-const tamaraAyoub = new Employeeinfo (1002, "Tamara Ayoub", "Marketing", "Senior","../assets/Tamara.jpg");
-const safiWalid = new Employeeinfo (1003, "Safi Walid", "Administration", "Mid-Senior","../assets/Safi.jpg");
-const omarZaid = new Employeeinfo (1004, "Omar Zaid", "Development", "Senior","../assets/Omar.jpg");
-const ranaSaleh = new Employeeinfo (1005, "Rana Saleh", "Development", "Junior","../assets/Rana.jpg");
-const hadiAhmad = new Employeeinfo (1006, "Hadi Ahmad", "Finance", "Mid-Senior","../assets/Hadi.jpg");
+const tamaraAyoub = new Employeeinfo (1002, "Tamara Ayoub", "Marketing", "Senior","./assets/Tamara.jpg");
+const safiWalid = new Employeeinfo (1003, "Safi Walid", "Administration", "Mid-Senior","./assets/Safi.jpg");
+const omarZaid = new Employeeinfo (1004, "Omar Zaid", "Development", "Senior","./assets/Omar.jpg");
+const ranaSaleh = new Employeeinfo (1005, "Rana Saleh", "Development", "Junior","./assets/Rana.jpg");
+const hadiAhmad = new Employeeinfo (1006, "Hadi Ahmad", "Finance", "Mid-Senior","./assets/Hadi.jpg");
 
 
 // random number function (between min and max included)
