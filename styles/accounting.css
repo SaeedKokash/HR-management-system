@@ -31,8 +31,6 @@
   }
   
   
-  
-  
   .nav-list {
     float: right;
     height: 100%;
@@ -77,46 +75,18 @@ h1 {
     padding-left: 0%;
  }
 
- .image {
-  border-style: solid;
-  width: 15%;
-  margin: 50px;
-  padding: 0px 30px 200px;
-  background-color: #7D9D9C;
-  border-radius: 5%;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  align-content: center;
-  text-align: center;
-  
-
- }
-
- .info {
-  width: 18%;
-  text-align: center;
-  font-size: 15px;
-  color: #F0EBE3;
-  /* border-style: dashed; */
-  display: block;
-  margin-top: -190px;
-  margin-bottom: 100px;
-  margin-left: 50px;
-  
- }
 
 
  footer { 
-  height: 100px;
-  width: 100%;
-  background-color: #576F72;
-  position: sticky;
-  top: 100%;
-  text-align: center;
-  margin-bottom: -100px;
-  
-}
+    height: 100px;
+    width: 100%;
+    background-color: #576F72;
+    top: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+  }
 
 footer p{
   padding-top: 15px
